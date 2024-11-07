@@ -1,0 +1,4 @@
+{
+    "login": "SELECT * FROM \"user\" WHERE username = $1 AND password = $2",
+    "register": "INSER INTO \"user\" (username, password) VALUES ($1, $2)"
+  }
